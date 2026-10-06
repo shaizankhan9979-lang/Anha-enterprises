@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Anha Enterprises | Cement, Steel, Bricks, Sand & More</title>
+<meta name="description" content="Cement, TMT steel, bricks, sand and aggregate at honest rates with on-time site delivery. Send your enquiry on WhatsApp.">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🏗️</text></svg>">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700&family=Barlow:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+:root{--steel:#22282e;--steel2:#2f373f;--yellow:#f4b400;--concrete:#e4e6e7;--paper:#f5f6f6;--ink:#1b1f23;--mute:#5d666e;--green:#1fa855;
+--head:'Barlow Condensed','Arial Narrow',Impact,sans-serif;--body:'Barlow','Segoe UI',Arial,sans-serif}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth;scroll-padding-top:70px}
+body{font-family:var(--body);color:var(--ink);background:var(--paper);line-height:1.55;font-size:17px}
+a{color:inherit}
+h1,h2,h3{font-family:var(--head);line-height:1.05;letter-spacing:.2px}
+.wrap{max-width:1140px;margin:0 auto;padding:0 20px}
+:focus-visible{outline:3px solid var(--yellow);outline-offset:2px}
+.stripe{height:10px;background:repeating-linear-gradient(135deg,var(--yellow) 0 14px,var(--steel) 14px 28px)}
+
+/* header */
+header{position:sticky;top:0;z-index:20;background:var(--steel);color:#fff}
+.nav{display:flex;align-items:center;justify-content:space-between;height:64px}
+.logo{font-family:var(--head);font-size:24px;font-weight:700;text-decoration:none;display:flex;gap:10px;align-items:center}
+.logo b{background:var(--yellow);color:var(--steel);padding:2px 9px;border-radius:3px}
+nav a{text-decoration:none;margin-left:22px;font-weight:500;font-size:15px;opacity:.85}
+nav a:hover{opacity:1;color:var(--yellow)}
+.btn{display:inline-flex;align-items:center;gap:8px;border:0;cursor:pointer;font:600 16px var(--body);padding:13px 22px;border-radius:4px;text-decoration:none}
+.btn-y{background:var(--yellow);color:var(--steel)}
+.btn-y:hover{background:#ffc928}
+.btn-wa{background:var(--green);color:#fff}
+.btn-wa:hover{background:#188d49}
+.btn-o{border:2px solid #fff4;color:#fff;background:transparent}
+.btn-o:hover{border-color:var(--yellow);color:var(--yellow)}
+.nav .btn{padding:9px 16px;margin-left:22px;font-size:15px}
+
+/* hero */
+.hero{background:var(--steel);color:#fff;padding:56px 0 64px;
+background-image:linear-gradient(var(--steel2) 1px,transparent 1px),linear-gradient(90deg,var(--steel2) 1px,transparent 1px);background-size:44px 44px}
+.hero .wrap{display:grid;grid-template-columns:1.1fr .9fr;gap:48px;align-items:center}
+.hero h1{font-size:clamp(42px,6.2vw,76px);font-weight:700;text-transform:uppercase}
+.hero h1 span{color:var(--yellow)}
+.hero p.lead{margin:18px 0 28px;font-size:19px;max-width:520px;color:#d3d8dc}
+.cta{display:flex;gap:12px;flex-wrap:wrap}
+.trust{display:flex;gap:26px;margin-top:34px;flex-wrap:wrap;color:#c3c9ce;font-size:15px}
+.trust strong{display:block;font:700 30px var(--head);color:#fff}
+
+.board{background:#fff;color:var(--ink);border-radius:6px;overflow:hidden;box-shadow:0 18px 40px #0006}
+.board h2{font-size:24px;padding:16px 20px 12px;text-transform:uppercase}
+.board small{display:block;font:500 13px var(--body);color:var(--mute);text-transform:none;margin-top:2px}
+.row{display:flex;justify-content:space-between;align-items:center;padding:12px 20px;border-top:1px solid var(--concrete);gap:10px}
+.row div{font-weight:600;line-height:1.2}
+.row em{display:block;font:400 13px var(--body);color:var(--mute);font-style:normal}
+.row button{background:none;border:2px solid var(--steel);border-radius:4px;font:600 14px var(--body);padding:6px 12px;cursor:pointer;white-space:nowrap}
+.row button:hover{background:var(--yellow);border-color:var(--yellow)}
+
+/* sections */
+section{padding:72px 0}
+.sec-h{max-width:640px;margin-bottom:36px}
+.sec-h h2{font-size:clamp(32px,4.5vw,48px);text-transform:uppercase}
+.sec-h p{color:var(--mute);margin-top:10px}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(250px,1fr));gap:18px}
+.card{background:#fff;border-top:5px solid var(--steel);padding:22px;border-radius:0 0 4px 4px;display:flex;flex-direction:column;gap:8px}
+.card:nth-child(3n+2){border-top-color:var(--yellow)}
+.card .ic{font-size:34px}
+.card h3{font-size:26px}
+.card p{color:var(--mute);font-size:15.5px;flex:1}
+.card a{font-weight:600;text-decoration:none;color:var(--steel);border-bottom:2px solid var(--yellow);align-self:flex-start;cursor:pointer}
+.why{background:var(--concrete)}
+.why .grid{grid-template-columns:repeat(auto-fit,minmax(220px,1fr))}
+.why .card{border-top:0;border-left:5px solid var(--yellow);border-radius:0 4px 4px 0}
+.steps{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:24px;counter-reset:s}
+.steps div{counter-increment:s;padding-left:58px;position:relative}
+.steps div::before{content:counter(s);position:absolute;left:0;top:-4px;width:42px;height:42px;background:var(--steel);color:var(--yellow);font:700 24px/42px var(--head);text-align:center;border-radius:50%}
+.steps h3{font-size:24px}.steps p{color:var(--mute);font-size:15.5px}
+
+/* enquiry */
+.enq{background:var(--steel);color:#fff}
+.enq .wrap{display:grid;grid-template-columns:.9fr 1.1fr;gap:48px}
+.enq h2{font-size:clamp(34px,4.5vw,52px);text-transform:uppercase}
+.enq .side p{color:#c3c9ce;margin:14px 0 22px}
+form{background:#fff;color:var(--ink);padding:26px;border-radius:6px;display:grid;grid-template-columns:1fr 1fr;gap:14px}
+label{font-weight:600;font-size:14px;display:block;margin-bottom:4px}
+.full{grid-column:1/-1}
+input,select,textarea{width:100%;font:inherit;padding:11px 12px;border:2px solid #cdd2d6;border-radius:4px;background:#fff}
+input:focus,select:focus,textarea:focus{border-color:var(--steel);outline:0}
+textarea{min-height:84px;resize:vertical}
+form .btn{width:100%;justify-content:center;font-size:18px}
+.note{font-size:13px;color:var(--mute);text-align:center}
+.err{color:#b3261e;font-size:13px;display:none}
+
+/* footer */
+footer{background:#14181c;color:#b6bcc2;padding:56px 0 24px;font-size:15.5px}
+.fgrid{display:grid;grid-template-columns:1.3fr 1fr 1fr;gap:36px}
+footer h3{color:#fff;font-size:22px;margin-bottom:10px;text-transform:uppercase}
+footer a{text-decoration:none}footer a:hover{color:var(--yellow)}
+footer li{list-style:none;margin-bottom:6px}
+address{font-style:normal;line-height:1.7}
+.copy{border-top:1px solid #2a3037;margin-top:36px;padding-top:18px;font-size:14px;display:flex;justify-content:space-between;flex-wrap:wrap;gap:8px}
+
+.float{position:fixed;right:18px;bottom:18px;z-index:30;width:58px;height:58px;border-radius:50%;background:var(--green);display:grid;place-items:center;box-shadow:0 6px 18px #0005;text-decoration:none}
+.float svg{width:32px;height:32px;fill:#fff}
+
+@media(max-width:860px){
+ .hero .wrap,.enq .wrap,.fgrid{grid-template-columns:1fr}
+ nav a{display:none}.nav .btn{margin-left:0}
+ form{grid-template-columns:1fr}
+}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+</style>
+</head>
+<body>
+
+<div class="stripe"></div>
+<header>
+ <div class="wrap nav">
+  <a class="logo" href="#top"><b>AE</b> <span data-biz></span></a>
+  <div style="display:flex;align-items:center">
+   <nav><a href="#products">Materials</a><a href="#why">Why us</a><a href="#enquiry">Enquiry</a><a href="#contact">Contact</a></nav>
+   <a class="btn btn-wa" data-wa href="#" target="_blank" rel="noopener">WhatsApp</a>
+  </div>
+ </div>
+</header>
+
+<main id="top">
+<div class="hero">
+ <div class="wrap">
+  <div>
+   <h1>Build strong.<br>Buy <span>smart.</span></h1>
+   <p class="lead">Cement, TMT steel, bricks, sand and aggregate for homes, builders and contractors. Branded stock, fair rates, delivered to your site.</p>
+   <div class="cta">
+    <a class="btn btn-y" href="#enquiry">Get a quote</a>
+    <a class="btn btn-o" data-call href="#">Call us</a>
+   </div>
+   <div class="trust">
+    <div><strong>15+ yrs</strong>in the trade</div>
+    <div><strong>2,000+</strong>sites supplied</div>
+    <div><strong>Same day</strong>local delivery</div>
+   </div>
+  </div>
+  <div class="board" aria-label="Quick rate enquiry">
+   <h2>Ask today's rate<small>Rates change daily. Tap a material and we reply on WhatsApp.</small></h2>
+   <div class="row"><div>OPC / PPC Cement<em>50 kg bag</em></div><button data-pick="Cement">Ask rate</button></div>
+   <div class="row"><div>TMT Steel Bars<em>8 mm to 25 mm, per tonne</em></div><button data-pick="TMT Steel">Ask rate</button></div>
+   <div class="row"><div>Red Bricks / Fly Ash Bricks<em>per 1,000</em></div><button data-pick="Bricks">Ask rate</button></div>
+   <div class="row"><div>Sand &amp; Aggregate<em>per tonne / truck load</em></div><button data-pick="Sand & Aggregate">Ask rate</button></div>
+  </div>
+ </div>
+</div>
+<div class="stripe"></div>
+
+<section id="products">
+ <div class="wrap">
+  <div class="sec-h"><h2>Core materials for every build, from foundation to finish</h2><p>One supplier for the whole project means one call, one bill and fewer delays.</p></div>
+  <div class="grid">
+   <div class="card"><div class="ic">🧱</div><h3>Cement</h3><p>OPC and PPC from leading brands. Fresh stock, correct weight, kept dry.</p><a data-pick="Cement">Enquire</a></div>
+   <div class="card"><div class="ic">🔩</div><h3>TMT Steel</h3><p>Fe 500 / Fe 500D bars with mill test certificates. Cut and bent on request.</p><a data-pick="TMT Steel">Enquire</a></div>
+   <div class="card"><div class="ic">🟫</div><h3>Bricks &amp; Blocks</h3><p>Red bricks, fly ash bricks and AAC blocks in bulk, unloaded where you need them.</p><a data-pick="Bricks">Enquire</a></div>
+   <div class="card"><div class="ic">⛰️</div><h3>Sand &amp; Aggregate</h3><p>River sand, M-sand, 10 mm / 20 mm aggregate and GSB by truck or tractor load.</p><a data-pick="Sand & Aggregate">Enquire</a></div>
+  </div>
+ </div>
+</section>
+
+<section class="why" id="why">
+ <div class="wrap">
+  <div class="sec-h"><h2>Why contractors keep calling us back</h2></div>
+  <div class="grid">
+   <div class="card"><h3>Genuine brands</h3><p>Direct from company dealers, with proper GST bills.</p></div>
+   <div class="card"><h3>Honest weight</h3><p>Weighed loads and sealed bags. You pay for what you get.</p></div>
+   <div class="card"><h3>On-time delivery</h3><p>Own trucks and tractors. We confirm the slot before dispatch.</p></div>
+   <div class="card"><h3>Bulk pricing</h3><p>Better rates for builders and repeat orders. Credit for regular clients.</p></div>
+  </div>
+ </div>
+</section>
+
+<section>
+ <div class="wrap">
+  <div class="sec-h"><h2>How to order</h2></div>
+  <div class="steps">
+   <div><h3>Send your list</h3><p>Fill the form below or message us on WhatsApp with materials and quantity.</p></div>
+   <div><h3>Get the rate</h3><p>We reply with today's rate, delivery charge and available time.</p></div>
+   <div><h3>Receive at site</h3><p>Pay on delivery or as agreed. Bill and challan come with the load.</p></div>
+  </div>
+ </div>
+</section>
+
+<section class="enq" id="enquiry">
+ <div class="wrap">
+  <div class="side">
+   <h2>Send your enquiry</h2>
+   <p>Fill in the details and tap the button. WhatsApp opens with your message ready to send, so we get exactly what you need.</p>
+   <a class="btn btn-o" data-call href="#">Prefer to talk? Call us</a>
+  </div>
+  <form id="enqForm" novalidate>
+   <div><label for="name">Your name *</label><input id="name" autocomplete="name" required></div>
+   <div><label for="phone">Phone number *</label><input id="phone" type="tel" inputmode="tel" autocomplete="tel" required></div>
+   <div class="full"><label for="mat">Material *</label>
+    <select id="mat">
+     <option>Cement</option><option>TMT Steel</option><option>Bricks</option><option>Sand &amp; Aggregate</option>
+     <option>Multiple materials</option>
+    </select></div>
+   <div><label for="qty">Quantity</label><input id="qty" placeholder="e.g. 200 bags, 5 tonne"></div>
+   <div><label for="loc">Delivery location</label><input id="loc" placeholder="Area / site address"></div>
+   <div class="full"><label for="msg">Anything else</label><textarea id="msg" placeholder="Brand, size, delivery date..."></textarea></div>
+   <p class="err full" id="err">Please enter your name and a valid phone number.</p>
+   <a class="btn btn-wa full" id="sendBtn" href="#" target="_blank" rel="noopener">Send enquiry on WhatsApp</a>
+   <div class="full" id="fallback" hidden style="background:#eaf7ef;border:2px solid var(--green);border-radius:4px;padding:14px">
+    <strong>Your enquiry is ready.</strong> If WhatsApp did not open, use the buttons below.
+    <pre id="preview" style="white-space:pre-wrap;font:14px var(--body);margin:10px 0;background:#fff;padding:10px;border-radius:4px"></pre>
+    <div style="display:flex;gap:10px;flex-wrap:wrap">
+     <a class="btn btn-wa" id="openWa" target="_blank" rel="noopener" href="#" style="padding:10px 16px">Open WhatsApp</a>
+     <button type="button" class="btn btn-y" id="copyBtn" style="padding:10px 16px">Copy message</button>
+    </div>
+   </div>
+   <p class="note full">You will be taken to WhatsApp. Nothing is sent until you tap Send there.</p>
+  </form>
+ </div>
+</section>
+</main>
+
+<footer id="contact">
+ <div class="wrap">
+  <div class="fgrid">
+   <div>
+    <h3 data-biz></h3>
+    <address id="addr"></address>
+    <p style="margin-top:10px"><a id="map" target="_blank" rel="noopener">View on Google Maps</a></p>
+   </div>
+   <div>
+    <h3>Contact</h3>
+    <ul>
+     <li id="phones"></li>
+     <li>WhatsApp: <a data-wa id="waNum" target="_blank" rel="noopener" href="#"></a></li>
+     <li id="hours"></li>
+    </ul>
+   </div>
+   <div>
+    <h3>Materials</h3>
+    <ul><li>Cement</li><li>TMT Steel</li><li>Bricks &amp; Blocks</li><li>Sand &amp; Aggregate</li></ul>
+   </div>
+  </div>
+  <div class="copy"><span>&copy; <span id="yr"></span> <span data-biz></span>. All rights reserved.</span><span>Proprietor: <span id="prop"></span> | GSTIN: <span id="gst"></span></span></div>
+ </div>
+</footer>
+
+<a class="float" data-wa href="#" target="_blank" rel="noopener" aria-label="Chat on WhatsApp">
+ <svg viewBox="0 0 32 32"><path d="M16 3C9 3 3.4 8.6 3.4 15.5c0 2.3.6 4.4 1.7 6.3L3 29l7.4-2c1.8 1 3.800 1.500 5.600 1.500 7 0 12.600-5.600 12.600-12.500S23 3 16 3zm0 22.700c-1.800 0-3.500-.5-5-1.400l-.4-.2-4.400 1.200 1.200-4.300-.3-.4a10 10 0 0 1-1.500-5.300C5.600 9.800 10.300 5.300 16 5.300s10.400 4.500 10.400 10.100S21.700 25.700 16 25.700zm5.700-7.500c-.3-.2-1.800-.9-2.100-1-.3-.1-.5-.2-.7.200-.2.300-.8 1-1 1.200-.2.200-.4.200-.7.100-.3-.2-1.300-.5-2.500-1.500-.9-.8-1.500-1.800-1.700-2.100-.2-.3 0-.5.100-.6l.5-.5c.1-.2.200-.3.300-.5.100-.2 0-.4 0-.5l-1-2.300c-.2-.6-.5-.5-.7-.5h-.6c-.2 0-.5.100-.8.400-.3.300-1.100 1.100-1.100 2.600s1.100 3 1.300 3.200c.2.200 2.200 3.400 5.300 4.700.7.300 1.300.5 1.700.6.700.2 1.400.2 1.900.1.600-.1 1.800-.7 2-1.400.3-.7.300-1.300.2-1.400-.1-.1-.3-.2-.6-.3z"/></svg>
+</a>
+
+<script>
+/* ===== EDIT THIS BLOCK WITH YOUR REAL DETAILS ===== */
+const CONFIG = {
+  business: "Anha Enterprises",
+  whatsapp: "919811831603",
+  phoneDisplay: "+91 98118 31603",
+  phones: ["9811831603","9718309603","9891769603"],
+  addressLines: ["First Floor, Gali No. 39, B-792, Sadarpur,","Khajur Colony, Sector 45, Noida,","Gautam Buddha Nagar, Uttar Pradesh - 201301"],
+  mapQuery: "B-792, Sadarpur, Khajur Colony, Sector 45, Noida, Uttar Pradesh 201301",
+  hours: "Open Mon to Sat, 8:00 AM to 7:00 PM",
+  gstin: "09HLBPP5688C1ZN",
+  proprietor: "Nisha Parveen"
+};
+/* ================================================== */
+
+const $=s=>document.querySelector(s), $$=s=>document.querySelectorAll(s);
+const waBase="https://wa.me/"+CONFIG.whatsapp;
+$$("[data-biz]").forEach(e=>e.textContent=CONFIG.business);
+$$("[data-wa]").forEach(e=>{e.href=waBase+"?text="+encodeURIComponent("Hello "+CONFIG.business+", I would like to enquire about building materials.");});
+$$("[data-call]").forEach(e=>e.href="tel:+91"+CONFIG.phones[0]);
+$("#waNum").textContent=CONFIG.phoneDisplay;
+$("#phones").innerHTML="Phone: "+CONFIG.phones.map(p=>`<a href="tel:+91${p}">${p.slice(0,5)} ${p.slice(5)}</a>`).join(", ");
+$("#addr").innerHTML=CONFIG.addressLines.join("<br>");
+$("#map").href="https://www.google.com/maps/search/?api=1&query="+encodeURIComponent(CONFIG.mapQuery);
+$("#hours").textContent=CONFIG.hours; $("#gst").textContent=CONFIG.gstin; $("#prop").textContent=CONFIG.proprietor;
+$("#yr").textContent=new Date().getFullYear();
+document.title=CONFIG.business+" | Cement, Steel, Bricks, Sand & More";
+
+/* tap a material -> preselect in form and scroll */
+$$("[data-pick]").forEach(b=>b.addEventListener("click",e=>{
+  if(b.tagName==="A")e.preventDefault();
+  const v=b.dataset.pick, sel=$("#mat");
+  [...sel.options].forEach(o=>{if(o.value===v||o.text===v)sel.value=o.value});
+  $("#enquiry").scrollIntoView({behavior:"smooth"});
+  setTimeout(()=>$("#name").focus({preventScroll:true}),500);
+}));
+
+/* form -> WhatsApp: sends every filled field exactly as typed */
+const form=$("#enqForm"), btn=$("#sendBtn");
+function buildMsg(){
+  const rows=[["Name","name"],["Phone","phone"],["Material","mat"],["Quantity","qty"],["Delivery location","loc"],["Details","msg"]];
+  const out=["*New enquiry from website - "+CONFIG.business+"*",""];
+  rows.forEach(([l,id])=>{const v=$("#"+id).value.trim(); if(v)out.push(l+": "+v);});
+  return out.join("\n");
+}
+function url(){return "https://api.whatsapp.com/send?phone="+CONFIG.whatsapp+"&text="+encodeURIComponent(buildMsg());}
+function refresh(){btn.href=url();}
+function valid(){
+  const ok=$("#name").value.trim()&&$("#phone").value.replace(/\D/g,"").length>=8;
+  $("#err").style.display=ok?"none":"block";
+  if(!ok)(!$("#name").value.trim()?$("#name"):$("#phone")).focus();
+  return ok;
+}
+form.addEventListener("input",refresh);
+form.addEventListener("change",refresh);
+btn.addEventListener("click",e=>{
+  refresh();
+  if(!valid()){e.preventDefault();return}
+  $("#preview").textContent=buildMsg();
+  $("#openWa").href=url();
+  $("#fallback").hidden=false;
+});
+$("#copyBtn").addEventListener("click",()=>{
+  const t=buildMsg(), b=$("#copyBtn");
+  const done=()=>{b.textContent="Copied. Paste in WhatsApp";};
+  if(navigator.clipboard&&navigator.clipboard.writeText){navigator.clipboard.writeText(t).then(done,()=>{});}
+  else{const ta=document.createElement("textarea");ta.value=t;document.body.appendChild(ta);ta.select();try{document.execCommand("copy");done()}catch(_){}ta.remove();}
+});
+form.addEventListener("submit",e=>{e.preventDefault(); btn.click();});
+refresh();
+</script>
+</body>
+</html>
